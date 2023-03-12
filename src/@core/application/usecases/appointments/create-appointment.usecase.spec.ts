@@ -1,5 +1,5 @@
 import { describe, expect, it, test } from 'vitest';
-import { AppointmentInMemoryRepository } from '../../../infra/db/in-memory/product-in-memory.repository';
+import { AppointmentInMemoryRepository } from '../../../infra/db/in-memory/appointment-in-memory.repository';
 import { CreateAppointmentUseCase } from './create-appointment.usecase';
 
 describe('Create Appointment Use Case', () => {
